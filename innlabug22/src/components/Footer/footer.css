@@ -1,0 +1,31 @@
+
+#socials .bottom {
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#socials .social {
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+
+#socials .social:hover {
+    color: #FFE108 ;
+}
+
+#socials .bi {
+    width: 30px;
+    height: 30px;
+}
+
+#socials .last {
+    font-family: 'Hubballi', cursive;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+}

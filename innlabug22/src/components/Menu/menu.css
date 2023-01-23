@@ -1,0 +1,11 @@
+.navbar-brand {
+  margin: 15px;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.nav-link {
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.pic {
+    height: 520px;
+    perspective: 600;
+    position: relative;
+    width: 450px;
+  }
+  
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+
+  .card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .card .back {
+    transform: rotateY(180deg);
+    background-image: url(https://images.unsplash.com/photo-1516571748831-5d81767b788d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a29d44f8c78ba3da0e00af9c60de1a3&auto=format&fit=crop&w=334&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-blend-mode: overlay;
+    height: 40%;
+  }
+
+  .perfil {
+    border-radius: 50%;
+    margin-top: 70px;
+    padding: 5px;
+    width: 30%;
+    margin-bottom: 20px;
+  }

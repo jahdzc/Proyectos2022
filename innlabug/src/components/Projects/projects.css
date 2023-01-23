@@ -1,0 +1,94 @@
+:root {
+  --bluesky: #00aeef;
+  --fucsia: #ef1748;
+  --yellow: #ffe108;
+  --black: #231f20;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-projects-container {
+  width: 100%;
+  min-height: 320px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.main-projects-container h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+/*.gallery a, img {
+  height: 230px;
+  width: 230px;
+}*/
+
+.gallery .team-card a, img {
+  height: 230px;
+  width: 230px;
+}
+
+.gallery a, img:hover{
+  opacity: 0.8;
+}
+
+/*nombre*/
+.gallery .team-card--title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
+}
+
+/*
+<a href="/">
+          <img src={pj1} alt=""></img>
+        </a>
+        <a href="/">
+          <img src={hexapod1} alt=""></img>
+          <p className="team-card--saving">{data.hexapod.name}</p>
+        </a>
+        <a href="/">
+          <img src={ar1} alt=""></img>
+        </a>
+        <a href="/">
+          <img src={pj1} alt=""></img>
+        </a>
+        <a href="/">
+          <img src={pj1} alt=""></img>
+        </a>
+        <a href="/">
+          <img src={pj1} alt=""></img>
+        </a>
+        <a href="/">
+          <img src={pj1} alt=""></img>
+        </a>
+        <a href="/">
+          <img src={pj1} alt=""></img>
+        </a>*/

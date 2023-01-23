@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+/*Mobile First*/
+@media screen and (min-width: 320px) {
+  /*Sección de Info*/
+  .topSection {
+    background-image: url("../../assets/estrellas1.jpg");
+    width: 100vw;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  #top {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Navigation Bar */
+  #top .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+  #top .navbar {
+    padding: 0 0 4.5rem;
+    justify-content: end;
+  }
+
+  #top .nav-item {
+    padding: 0 18px;
+  }
+
+  #top .nav-link {
+    font-size: 1.2rem;
+    font-family: "Paytone One", sans-serif;
+    color: white;
+  }
+
+  /*Tamaño del planeta*/
+
+  #top .planeta {
+    width: 200px;
+    height: 200px;
+  }
+
+  #top .desc h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Paytone One", sans-serif;
+    color: white;
+  }
+
+  #top .desc p {
+    text-align: justify;
+    padding: 20px 20px;
+    color: white;
+  }
+
+  #top .buttons {
+    padding-bottom: 15px;
+  }
+
+  #top .op {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  #top .op:hover {
+    cursor: pointer;
+    background-color: #aad8d3;
+  }
+
+  #top .op p {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  #top .pop {
+    margin: 10px 0;
+  }
+
+  .bottomSec {
+    background-image: url("../../assets/estrellas1.jpg");
+    width: 100vw;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  #bottomSection .boxes {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 20px;
+    padding: 25px 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  #bottomSection .boxes h1 {
+    color: white;
+  }
+
+  #bottomSection .boxes h6 {
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+/*Div completo
+  .complete {
+    width: 100vw;
+    position: relative;
+    background-image: url("../../assets/estrellas1.jpg");
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .principal {
+    width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 3vh;
+    position: relative;
+  }
+
+  .top {
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  #top .desc {
+    width: 50%;
+  }
+  */
+
+/*<div className="complete">
+        <div className="header" id="title">
+          <div className="container-fluid"></div>
+        </div>
+        <div className="principal">
+          <div className="row">
+            <div className="top">
+              <div className="planet">
+                {primera && (
+                  <img
+                    src={data[props.namePlanet]["imagen1"]}
+                    alt="Planeta"
+                    className="planeta"
+                  />
+                )}
+                {segunda && (
+                  <img
+                    src={data[props.namePlanet]["imagen2"]}
+                    alt="Internamente"
+                    className="planeta"
+                  />
+                )}
+                {tercera && (
+                  <img
+                    src={data[props.namePlanet]["imagen3"]}
+                    alt="Superficie"
+                    className="planeta"
+                  />
+                )}
+              </div>
+              <div className="desc">
+                <h1>{props.namePlanet.toUpperCase()}</h1>
+                <p>{texto}</p>
+                <div className="buttons">
+                  <div className="op" onClick={overview}>
+                    <p className="pop">Overview</p>
+                  </div>
+                  <div className="op" onClick={internal}>
+                    <p className="pop">Internal Structure</p>
+                  </div>
+                  <div className="op" onClick={surface}>
+                    <p className="pop">Surface Geology</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>*/
+
+/*h1 {
+  color: white;
+  font-style: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.complete {
+  width: 100vw;
+  position: relative;
+  background-image: url("../../assets/estrellas1.jpg");
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.navbar {
+  padding: 0 30px;
+}
+
+.nav-item {
+  padding: 10px 10px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: "Patrick Hand";
+  color: white;
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
+.principal {
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-top: 3vh;
+  position: relative;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.planet {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planeta {
+  width: 500px;
+  height: 500px;
+}
+
+.desc {
+  width: 30%;
+}
+
+.desc h1 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Paytone One", sans-serif;
+}
+
+.desc p {
+  text-align: justify;
+  padding: 20px 45px;
+  color: white;
+}
+
+.buttons {
+  padding-bottom: 15px;
+}
+
+.op {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.op p {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.pop {
+  margin: 10px 0;
+}
+
+.op:hover {
+  cursor: pointer;
+  background-color: #aad8d3;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes {
+  height: 200px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 15px;
+  padding: 25px 50px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.boxes h1 {
+  color: white;
+}
+
+.boxes h6 {
+  color: gray;
+  font-weight: bold;
+  text-align: center;
+}*/

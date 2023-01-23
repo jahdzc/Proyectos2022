@@ -1,0 +1,973 @@
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:wght@600&display=swap");
+
+@media screen and (min-width:320px) {
+
+    .topSectionCover {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .together {
+        position: absolute;
+        width: 540px;
+    }
+
+    .welcome {
+        font-family: 'Fredoka One', cursive;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 220px;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+
+    .bottomSectionCover {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow-x: hidden;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mid {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+    
+    .caption {
+        color: white;
+        text-align: center;
+        animation: bounceIn;
+        animation-duration: 4s;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .mercury {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .venus {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .earth {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .mars {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .jupiter {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .saturn {
+        vertical-align: top;
+        width:  90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .uranus {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .neptune {
+        vertical-align: top;
+        width: 90px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+
+}
+
+@media screen and (min-width:375px) {
+
+    .top {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .together {
+        position: absolute;
+        width: 550px;
+    }
+
+    .welcome {
+        font-family: 'Fredoka One', cursive;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 210px;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+
+    .middle {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow-x: hidden;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mid {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+    
+    .caption {
+        color: white;
+        text-align: center;
+        animation: bounceIn;
+        animation-duration: 4s;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .mercury {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .venus {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .earth {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .mars {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .jupiter {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .saturn {
+        vertical-align: top;
+        width:  95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .uranus {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .neptune {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+
+}
+
+@media screen and (min-width:425px) {
+
+    .top {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .together {
+        position: absolute;
+        width: 550px;
+    }
+
+    .welcome {
+        font-family: 'Fredoka One', cursive;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 200px;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+
+    .middle {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow-x: hidden;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mid {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+    
+    .caption {
+        color: white;
+        text-align: center;
+        animation: bounceIn;
+        animation-duration: 4s;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .mercury {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .venus {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .earth {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .mars {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .jupiter {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .saturn {
+        vertical-align: top;
+        width:  95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .uranus {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .neptune {
+        vertical-align: top;
+        width: 95px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .top {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .together {
+        position: absolute;
+        width: 550px;
+    }
+
+    .welcome {
+        font-family: 'Fredoka One', cursive;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 250px;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+
+    .middle {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow-x: hidden;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mid {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        margin-top: 25px;
+        font-size: 45px;
+        text-align: center;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+    
+    .caption {
+        color: white;
+        text-align: center;
+        animation: bounceIn;
+        animation-duration: 4s;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .mercury {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .venus {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .earth {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .mars {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .jupiter {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .saturn {
+        vertical-align: top;
+        width:  120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .uranus {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .neptune {
+        vertical-align: top;
+        width: 120px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .top {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .together {
+        position: absolute;
+        width: 550px;
+    }
+
+    .welcome {
+        font-family: 'Fredoka One', cursive;
+        font-size: 55px;
+        color: white;
+        text-align: center;
+        top: 250px;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+
+    .middle {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow-x: hidden;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mid {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+    
+    .caption {
+        color: white;
+        text-align: center;
+        animation: bounceIn;
+        animation-duration: 4s;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .mercury {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .venus {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .earth {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .mars {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .jupiter {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .saturn {
+        vertical-align: top;
+        width:  160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .uranus {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .neptune {
+        vertical-align: top;
+        width: 160px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .top {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .together {
+        position: absolute;
+        width: 600px;
+    }
+
+    .welcome {
+        font-family: 'Fredoka One', cursive;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        top: 280px;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+
+    .middle {
+        background-image: url('../../assets/estrellas1.jpg');
+        background-repeat: repeat;
+        overflow-x: hidden;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .mid {
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        animation: fadeInUp;
+        animation-duration: 2s;
+        width: 100vw;
+    }
+    
+    .caption {
+        color: white;
+        text-align: center;
+        animation: bounceIn;
+        animation-duration: 4s;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .mercury {
+        vertical-align: top;
+        width:  200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .venus {
+        vertical-align: top;
+        width: 200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .earth {
+        vertical-align: top;
+        width: 200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .mars {
+        vertical-align: top;
+        width: 200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .jupiter {
+        vertical-align: top;
+        width: 180px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .saturn {
+        vertical-align: top;
+        width:  200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .uranus {
+        vertical-align: top;
+        width: 200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+    
+    .neptune {
+        vertical-align: top;
+        width: 200px;
+        margin: 20px;
+        padding: 5px;
+        animation: bounceIn;
+        animation-duration: 4s;
+    }
+}
+
+/*<div className="middle">
+        <h1 className="mid">Discover Solar System</h1>
+
+        <figure>
+          <a href="/mercury">
+            <img src={mercury} alt="Mercury" className="mercury" />
+          </a>
+          <figcaption className="caption">Mercury</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/venus">
+            <img src={venus} alt="Venus" className="venus" />
+          </a>
+          <figcaption className="caption">Venus</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/earth">
+            <img src={earth} alt="Earth" className="earth" />
+          </a>
+          <figcaption className="caption">Earth</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/mars">
+            <img src={mars} alt="Mars" className="mars" />
+          </a>
+          <figcaption className="caption">Mars</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/jupiter">
+            <img src={jupiter} alt="Jupiter" className="jupiter" />
+          </a>
+          <figcaption className="caption">Jupiter</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/saturn">
+            <img src={saturn} alt="Saturn" className="saturn" />
+          </a>
+          <figcaption className="caption">Saturn</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/uranus">
+            <img src={uranus} alt="Uranus" className="uranus" />
+          </a>
+          <figcaption className="caption">Uranus</figcaption>
+        </figure>
+
+        <figure>
+          <a href="/neptune">
+            <img src={neptune} alt="Neptune" className="neptune" />
+          </a>
+          <figcaption className="caption">Neptune</figcaption>
+        </figure>
+      </div>*/
+
+/*Mobile first*
+.top {
+    background-image: url('../../assets/estrellas1.jpg');
+    background-repeat: repeat;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.together {
+    position: absolute;
+    width: 550px;
+}
+
+.welcome {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 240px;
+    animation: fadeInUp;
+    animation-duration: 2s;
+    width: 100vw;
+}
+
+.middle {
+    background-image: url('../../assets/estrellas1.jpg');
+    background-repeat: repeat;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mid {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    animation: fadeInUp;
+    animation-duration: 2s;
+    width: 100vw;
+}
+
+.caption {
+    color: white;
+    text-align: center;
+    animation: bounceIn;
+    animation-duration: 4s;
+    font-family: 'Rubik', sans-serif;
+}
+
+.mercury {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.venus {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.earth {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.mars {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.jupiter {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.saturn {
+    vertical-align: top;
+    width:  80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.uranus {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}
+
+.neptune {
+    vertical-align: top;
+    width: 80px;
+    margin: 20px;
+	padding: 5px;
+    animation: bounceIn;
+    animation-duration: 4s;
+}*/

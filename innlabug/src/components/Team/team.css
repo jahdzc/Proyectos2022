@@ -1,0 +1,137 @@
+:root {
+  --bluesky: #00aeef;
+  --fucsia: #ef1748;
+  --yellow: #ffe108;
+  --black: #231f20;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-team-container {
+  width: 100%;
+  min-height: 320px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.main-team-container h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.team-container--slider {
+  display: flex;
+  height: 350px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.team-container--card {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 420px;
+  height: 320px;
+  margin: 20px 30px 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.team-container--card .recommended {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: calc(50% - 60px);
+  top: -10px;
+  margin: 0;
+  padding: 6px;
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+  color: var(--just-white);
+}
+
+.team-card img {
+  height: 200px;
+  width: 200px;
+}
+
+/*nombre*/
+.team-card--title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
+}
+
+.team-container--card .team-card--price {
+  padding: 5px 0;
+  font-size: 5.3rem;
+  font-weight: bold;
+  line-height: 6.3rem;
+  color: black;
+}
+
+/*Description*/
+.team-container--card .team-card--saving {
+  padding-top: 2px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.team-card--ca {
+  width: 151px;
+  height: 48px;
+  margin-top: 20px;
+  background: var(--off-white);
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+
+.team-card--ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/icon/down-arrow.svg");
+  vertical-align: text-bottom;
+}
+
+@media screen and (min-width:768px) {
+
+  .main-team-container h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+  }
+  
+}

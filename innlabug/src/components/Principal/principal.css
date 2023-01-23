@@ -1,0 +1,13 @@
+:root {
+    --bluesky: #00AEEF;
+    --fucsia: #EF1748;
+    --yellow: #FFE108;
+    --black: #231F20;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

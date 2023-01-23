@@ -1,0 +1,64 @@
+:root {
+  --bluesky: #00aeef;
+  --fucsia: #ef1748;
+  --yellow: #ffe108;
+  --black: #231f20;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Snas", sans-serif;
+}
+
+/*Color de fondo*/
+.contact-area {
+  background: radial-gradient(circle, var(--black), var(--bluesky) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 220px;
+}
+
+.social {
+  color: white;
+  padding: 5px;
+  position: relative;
+}
+
+.social-icons {
+  padding: 25px;
+}
+
+.bi {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-area img {
+  position: relative;
+  max-width: 200px;
+  max-height: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .bi {
+    width: 35px;
+    height: 35px;
+  }
+
+  .contact-area img {
+    position: relative;
+    max-width: 250px;
+    max-height: 100px;
+  }
+}

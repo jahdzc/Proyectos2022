@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Ramabhadra&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Patrick+Hand&display=swap');
+
+* {
+  margin: 0;
+}
+
+/*mobile first*/
+.topSection {
+  background-color: #231F20;
+  color: white;
+  height: 100vh;
+  position: relative;
+}
+
+.texto1 {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  text-align: center;
+  font-weight: bold;
+  width: 90%;
+  animation: backInUp;
+  animation-duration: 3s;
+  font-family: Montserrat;
+}

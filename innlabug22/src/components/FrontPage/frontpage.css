@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Ramabhadra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*mobile first*/
+.topSectionFront {
+  background-color: #231f20;
+  color: white;
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+}
+
+.portada {
+  margin: 10vh 0;
+  margin-bottom: 20%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  text-align: center;
+  font-weight: bold;
+  width: 90%;
+  animation: backInUp;
+  animation-duration: 3s;
+  font-family: Montserrat;
+  margin-bottom: 30px;
+}
+
+/*Cuadrito Azul*/
+.cuadroAzul {
+  background-color: #FFE108;
+  position: relative;
+  height: 50vh;
+  width: 75vw;
+  z-index: 999;
+}
+
+.cuadroAmarillo {
+  background-color: #00AEEF;
+  position: absolute;
+  height: 40vh;
+  width: 80vw;
+  z-index: -1;
+  top: 15px;
+  right: -25px;
+}
+
+.text {
+  font-family: Montserrat;
+  font-size:x-large;
+  font-weight: bold;
+  justify-content: center;
+  margin: 12% auto;
+  padding: 5%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .portada {
+    padding: 15px 0;
+    margin-bottom: 10%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome {
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    animation: backInUp;
+    animation-duration: 3s;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+  }
+
+  .cuadroAzul {
+    background-color: #FFE108;
+    position: relative;
+    height: 50vh;
+    width: 75vw;
+    z-index: 999;
+  }
+  
+  .cuadroAmarillo {
+    background-color: #00AEEF;
+    position: absolute;
+    height: 40vh;
+    width: 75vw;
+    z-index: -1;
+    top: 15px;
+    right: -25px;
+  }
+
+  .text {
+    font-family: Montserrat;
+    font-size:x-large;
+    font-weight: bold;
+    justify-content: center;
+    margin: 8% auto;
+    padding: 5%;
+    text-align: center;
+  }
+
+}
